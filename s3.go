@@ -27,12 +27,14 @@ $ go get -u github.com/juan-carlos-trimino/gps3storage
 Next, open the file that will use the package and add this line
 ("github.com/{GitHub-Username}/{Repo-Name}").
 
-import "github.com/juan-carlos-trimino/gps3storage"
+import "github.com/juan-carlos-trimino/go-s3storage"
 
 To upgrade/downgrade the version of the package, move to the root of the module's directory
 structure (where the go.mod file is located) and execute
 (go get -u "{package-name}@{git-commit-hash}").
-$ go get -u "github.com/juan-carlos-trimino/gps3storage@xxxxxxx"
+$ go get -u "github.com/juan-carlos-trimino/go-s3storage@xxxxxxx"
+or
+$ go get -u "github.com/juan-carlos-trimino/go-s3storage@v1.1.0"
 ***/
 
 import (
