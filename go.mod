@@ -1,6 +1,6 @@
-module github.com/juan-carlos-trimino/gps3storage
+module github.com/juan-carlos-trimino/go-s3storage
 
-go 1.24.3
+go 1.26.4
 
 require (
 	github.com/aws/aws-sdk-go v1.53.8 // indirect
